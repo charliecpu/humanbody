@@ -7,5 +7,5 @@ union select 'teeth', 32
 union select 'toungue', 1
 
 --added hair... how we should store the hair part in our table
-insert body(bodypart, num)
-select 'hair', 4000
+insert body(bodypart)
+select 'hair'
